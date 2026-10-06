@@ -22,3 +22,4 @@ function log(s){let l=document.getElementById('log');l.innerHTML+=s+'<br>';l.scr
 function resetGame(){document.getElementById('battle').classList.add('hidden');document.getElementById('build').classList.remove('hidden');document.getElementById('log').innerHTML='';document.getElementById('hero').textContent='🦸'}
 let saved=localStorage.getItem('sbw_base');if(saved)try{base=JSON.parse(saved)}catch(e){}init();
 </script></body></html>
+
